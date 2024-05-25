@@ -1,0 +1,9 @@
+version: '3.11'
+
+services:
+  controller:
+    build: .
+    env_file:
+      - .env
+    ports:
+      - 2000:2000
